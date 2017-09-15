@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class PlayList extends Component {
+export default class NavBar extends Component {
     render() {
         return (
             <div>
-
+                HELLLLLLLOOOO  JERRRY
             </div>
         )
     }

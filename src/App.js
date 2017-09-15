@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./components/NavBar";
+import PlayList from "./components/PlayList";
+import PlayListForm from "./components/PlayListForm";
+import './styles/App.css';
 
-class App extends Component {
+
+export default class App extends Component {
+  // method to post a track object to an endpoint
+
+  // method to retrieve tracks
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <NavBar />
+        <PlayListForm />
+        <PlayList />
+
+
+
       </div>
-    );
+    )
   }
 }
 
-export default App;
