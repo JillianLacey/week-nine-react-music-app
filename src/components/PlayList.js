@@ -30,12 +30,15 @@ export default class PlayList extends Component {
     render() {
         let songs = this.state.songs;
         return (
-            <div>
-                <form onSubmit={this.fetchData}>
-                    <button>Update List</button>
-                </form>
-                <PlayListItem songs={songs} />
-            </div>
+            <header className="hero-2">
+
+                <div>
+                    <form onSubmit={this.fetchData}>
+                        <button>Refresh List</button>
+                    </form>
+                    <PlayListItem songs={songs} />
+                </div>
+            </header>
         )
     }
 }

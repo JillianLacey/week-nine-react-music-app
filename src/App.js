@@ -11,14 +11,23 @@ export default class App extends Component {
   // method to retrieve tracks
   render() {
     return (
-      <div className="App">
-        <NavBar />
-        <PlayListForm />
-        <PlayList />
 
+      <NavBar>
+        <div className="App">
+          <header id="page-top" className="masthead hero">
+            <div className="header-content">
+              <div className="header-content-inner">
+                <h1 id="homeHeading" className="page-title">Songster</h1><br />
+                <h3>Share music with friends!</h3>
+              </div>
+            </div>
+          </header>
+          <PlayListForm />
 
+          <PlayList />
+        </div>
+      </NavBar>
 
-      </div>
     )
   }
 }

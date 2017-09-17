@@ -11,16 +11,16 @@ export default class PlayListItem extends Component {
         songs = this.props.songs.map((song, index) => {
             return (
                 <div key={index}>
-                    <p>User: {song.userName}</p>
+                    <p>Added By: {song.userName}</p>
                     <p>Artist/Band: {song.songArtist}</p>
                     <p>Title: {song.songTitle}</p>
-                    <p>Notes: {song.songNotes}</p>
+                    <p>Comments: {song.songNotes}</p>
                 </div>
             )
         })
 
         return (
-            <div>{songs}</div>
+            <div className="">{songs}</div>
         );
 
     }
