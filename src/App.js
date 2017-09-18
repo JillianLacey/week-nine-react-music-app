@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import PlayList from "./components/PlayList";
 import PlayListForm from "./components/PlayListForm";
 import './styles/App.css';
+import './styles/Custom.css';
 
 
 export default class App extends Component {

@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+* {
+  margin: 0;
+}
+
 body, html {
   width: 100%;
   height: 100%;
@@ -11,43 +15,11 @@ body, html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  /* background-color: rgba(14, 192, 216, 0.63); */
   background-color: #FE92B2;
-}
-
-#root {
-  margin: 0;
-  width: 100%;
-}
-
-.container {
-  width: 90%;
-  padding: 0;
-  margin: 0;
 }
 
 button {
   cursor: pointer;
-}
-
-.hero {
-  background-image: url("../img/header.jpg");
-  height: 90%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero-2 {
-  background-image: url("../img/mink-mingle-109837.jpg");
-  height: 90%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* opacity: .7;
-  /* background: linear-gradient( rgba(31, 105, 114, 0.74), rgba(96, 148, 154, 0.45)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png); */
 }
 
 hr {
@@ -79,12 +51,6 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-}
-
-.bg-primary {
-  /* background-color: rgba(96, 148, 154, 0.82) !important; */
-  background: linear-gradient( rgba(123, 192, 167, 0.87), rgba(31, 105, 114, 0.74)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png);
-  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
 
 .bg-dark {
@@ -474,14 +440,6 @@ header.masthead .header-content .header-content-inner p {
 
 .btn-xl {
   padding: 15px 30px;
-}
-
-.page-title {
-  /* font-family: 'Architects Daughter', cursive; */
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 5rem;
-  letter-spacing: .2rem;
-  text-shadow: 1px 1px 0.5px #161616;
 }
 
 .mx-auto {

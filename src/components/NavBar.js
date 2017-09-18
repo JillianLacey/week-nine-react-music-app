@@ -17,9 +17,9 @@ export default class NavBar extends Component {
 
                 {this.props.children}
 
-                <footer className="call-to-action bg-dark">
-                    <div className="container text-center">
-                        <h4>Enjoying Songster?</h4><br />
+                <footer className="call-to-action">
+                    <div className="container footer-bar">
+                        <p>Enjoying Songster?</p>
                         <a className="btn btn-default btn-md sr-button" href="#">Share with friends!</a>
                     </div>
                 </footer>
