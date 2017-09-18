@@ -7,28 +7,11 @@ export default class NavBar extends Component {
     render() {
         return (
             <div className="base">
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <nav className="navbar navbar-expand-lg navbar-light fixed-top">
                     <div className="container">
-                        <a className="navbar-brand" href="#">Songster</a>
-                        <a className="navbar-brand" href="#">Add a Song</a>
-
-                        <div className="collapse navbar-collapse" id="navbarResponsive">
-                            <ul className="navbar-nav ml-auto">
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="#">Home</a>
-                                </li>
-
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+                        <a className="navbar-brand" href="#"></a>
+                        <a className="navbar-brand" href="#playlist-form"></a>
+                        <a className="navbar-brand" href="#playlist"></a>
                     </div>
                 </nav>
 

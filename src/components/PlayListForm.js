@@ -51,32 +51,33 @@ export default class PlayListForm extends Component {
     render() {
         let { userName, songArtist, songTitle, songNotes } = this.state;
         return (
-            <section className="bg-primary" id="share">
+            <section className="bg-primary" id="playlist-form">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 mx-auto text-center">
-                            <h2 className="section-heading text-white">Earworm? Favorite Song? Add it!</h2>
+                            <h2 className="section-heading text-white">Share Song Below!</h2>
+
                             <form onSubmit={this.addToList}>
                                 <div className="form-group">
+
                                     <input onChange={this.handleInputChange} value={userName} type="text" className="form-control" name="userName" placeholder="Enter your name" />
                                 </div>
                                 <div className="form-group">
 
-                                    <input onChange={this.handleInputChange} value={songArtist} type="text" className="form-control" name="songArtist" placeholder="Enter the Artist or Band" />
+                                    <input onChange={this.handleInputChange} value={songArtist} type="text" className="form-control" name="songArtist" placeholder="Artist or Band" />
                                 </div>
                                 <div className="form-group">
 
-                                    <input onChange={this.handleInputChange} value={songTitle} type="text" className="form-control" name="songTitle" placeholder="Enter Song Title" />
+                                    <input onChange={this.handleInputChange} value={songTitle} type="text" className="form-control" name="songTitle" placeholder="Song Title" />
                                 </div>
                                 <div className="form-group">
 
-                                    <textarea onChange={this.handleInputChange} value={songNotes} type="text" className="form-control" name="songNotes" placeholder="Add comments about the song"></textarea>
+                                    <textarea onChange={this.handleInputChange} value={songNotes} type="text" className="form-control" name="songNotes" placeholder="Comments"></textarea>
                                 </div>
 
-                                <button id="form-button" type="submit" className="btn btn-default btn-xl">Add Song!</button>
+                                <button id="form-button" type="submit" className="btn btn-default btn-md">Add Song!</button>
                             </form>
                         </div>
-
                     </div>
                 </div>
             </section>

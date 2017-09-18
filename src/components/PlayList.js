@@ -30,7 +30,7 @@ export default class PlayList extends Component {
     render() {
         let songs = this.state.songs;
         return (
-            <header className="hero-2">
+            <header id="playlist" className="hero-2">
 
                 <div>
                     <form onSubmit={this.fetchData}>

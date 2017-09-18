@@ -18,7 +18,7 @@ export default class App extends Component {
             <div className="header-content">
               <div className="header-content-inner">
                 <h1 id="homeHeading" className="page-title">Songster</h1><br />
-                <h3>Share music with friends!</h3>
+                <h3>:|: Song Sharing Made Easy :|:</h3>
               </div>
             </div>
           </header>

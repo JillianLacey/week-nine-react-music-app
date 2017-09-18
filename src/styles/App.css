@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Createive v4.0.0-beta (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrapo
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
@@ -11,7 +11,8 @@ body, html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  background-color: rgba(14, 192, 216, 0.63);
+  /* background-color: rgba(14, 192, 216, 0.63); */
+  background-color: #FE92B2;
 }
 
 #root {
@@ -39,12 +40,14 @@ button {
 }
 
 .hero-2 {
-  background-image: url("../img/player.jpg");
+  background-image: url("../img/mink-mingle-109837.jpg");
   height: 90%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* opacity: .7;
+  /* background: linear-gradient( rgba(31, 105, 114, 0.74), rgba(96, 148, 154, 0.45)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png); */
 }
 
 hr {
@@ -79,7 +82,9 @@ p {
 }
 
 .bg-primary {
-  background-color: #222222 !important;
+  /* background-color: rgba(96, 148, 154, 0.82) !important; */
+  background: linear-gradient( rgba(123, 192, 167, 0.87), rgba(31, 105, 114, 0.74)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png);
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
 
 .bg-dark {
@@ -230,7 +235,7 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content .header-content-inner h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -266,9 +271,9 @@ header.masthead .header-content .header-content-inner p {
     margin-right: auto;
     margin-left: auto;
   }
-  header.masthead .header-content .header-content-inner h1 {
+  /* header.masthead .header-content .header-content-inner h1 {
     font-size: 50px;
-  }
+  } */
   header.masthead .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -474,7 +479,12 @@ header.masthead .header-content .header-content-inner p {
 .page-title {
   /* font-family: 'Architects Daughter', cursive; */
   font-family: 'Julius Sans One', sans-serif;
-  /* font-size: 5rem; */
-  letter-spacing: .5rem;
-  text-shadow: .5px 0px .5px #161616;
+  font-size: 5rem;
+  letter-spacing: .2rem;
+  text-shadow: 1px 1px 0.5px #161616;
+}
+
+.mx-auto {
+  margin-right: auto!important;
+  margin-left: 290px!important;
 }
