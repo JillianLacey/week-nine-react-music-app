@@ -51,11 +51,11 @@ export default class PlayListForm extends Component {
     render() {
         let { userName, songArtist, songTitle, songNotes } = this.state;
         return (
-            <section className="bg-primary" id="playlist-form">
-                <div className="container">
+            <section className="bg-primary zigzag " id="playlist-form">
+                <div className="container-playlist-form">
                     <div className="row">
                         <div className="col-lg-8 mx-auto text-center">
-                            <h2 className="section-heading text-white">Share Song Below!</h2>
+                            <h2 className="section-heading text-white">Share A Song Below!</h2>
 
                             <form onSubmit={this.addToList}>
                                 <div className="form-group">
@@ -84,3 +84,6 @@ export default class PlayListForm extends Component {
         )
     }
 }
+
+
+
