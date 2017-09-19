@@ -55,27 +55,22 @@ export default class PlayListForm extends Component {
                 <div className="container-playlist-form">
                     <div className="row">
                         <div className="col-lg-8 mx-auto text-center">
-                            <h2 className="section-heading text-white">Share A Song Below!</h2>
+                            <h3 className="section-heading text-white">Have a favorite song? Reccomendation?</h3>
 
-                            <form onSubmit={this.addToList}>
-                                <div className="form-group">
+                            <form className="cf" onSubmit={this.addToList}>
+                                <div className="half left cf">
 
                                     <input onChange={this.handleInputChange} value={userName} type="text" className="form-control" name="userName" placeholder="Enter your name" />
-                                </div>
-                                <div className="form-group">
-
                                     <input onChange={this.handleInputChange} value={songArtist} type="text" className="form-control" name="songArtist" placeholder="Artist or Band" />
-                                </div>
-                                <div className="form-group">
-
                                     <input onChange={this.handleInputChange} value={songTitle} type="text" className="form-control" name="songTitle" placeholder="Song Title" />
                                 </div>
-                                <div className="form-group">
+                                <div className="half right cf">
 
                                     <textarea onChange={this.handleInputChange} value={songNotes} type="text" className="form-control" name="songNotes" placeholder="Comments"></textarea>
                                 </div>
 
-                                <button id="form-button" type="submit" className="btn btn-default btn-md">Add Song!</button>
+                                <button id="input-submit" type="submit" className="btn btn-default btn-md">Add Song!</button>
+
                             </form>
                         </div>
                     </div>
