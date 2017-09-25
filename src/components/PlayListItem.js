@@ -10,18 +10,25 @@ export default class PlayListItem extends Component {
         let songs;
         songs = this.props.songs.map((song, index) => {
             return (
-                <div className="circle" key={index}>
-                    <p>Added By: {song.userName}</p>
-                    <p>Artist/Band: {song.songArtist}</p>
+                <div className="songs" key={index}>
+                    <p className="artist">Artist / Band: {song.songArtist}</p>
                     <p>Title: {song.songTitle}</p>
+                    <p>Added By: {song.userName}</p>
                     <p>Comments: {song.songNotes}</p>
                 </div>
             )
         })
 
         return (
-            <div className="">{songs}</div>
+
+            <div className="song-ctr">
+                <div className="inner-ctr">
+                    {songs}
+                </div>
+            </div>
         );
 
     }
 }
+
+

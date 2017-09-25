@@ -15,7 +15,7 @@ body, html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  background-color: #FE92B2;
+  background-color: rgba(37, 31, 33, 0.84);
 }
 
 button {
@@ -113,7 +113,8 @@ body {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #588F94;
+  /*change this color*/
 }
 
 #mainNav .navbar-toggle {
@@ -131,7 +132,7 @@ body {
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-  color: #F05F40;
+  color: #588F94
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
@@ -223,7 +224,7 @@ header.masthead .header-content .header-content-inner p {
   header.masthead {
     height: 100%;
     /* min-height: 600px; */
-    min-height: 770px;
+    min-height: 800px;
   }
   header.masthead .header-content {
     position: absolute;

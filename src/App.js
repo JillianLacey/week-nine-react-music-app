@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from "./components/NavBar";
+import BaseLayout from "./components/BaseLayout";
 import PlayList from "./components/PlayList";
 import PlayListForm from "./components/PlayListForm";
 import './styles/App.css';
@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
 
-      <NavBar>
+      <BaseLayout>
         <div className="App">
           <header id="page-top" className="masthead hero">
             <div className="header-content">
@@ -27,7 +27,7 @@ export default class App extends Component {
 
           <PlayList />
         </div>
-      </NavBar>
+      </BaseLayout>
 
     )
   }

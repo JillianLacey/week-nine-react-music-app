@@ -1,7 +1,7 @@
 .bg-primary {
     background: linear-gradient( rgba(123, 192, 167, 0.87), rgba(31, 105, 114, 0.74)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png);
-    /* box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3); */
     position: relative;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.2);
 }
 
 #root {
@@ -36,24 +36,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: .7;
     /* background: linear-gradient( rgba(31, 105, 114, 0.74), rgba(96, 148, 154, 0.45)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png); */
-}
-
-.circle {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    border-radius: 50%;
-    /* the magic */
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 0 auto 40px;
 }
 
 .page-title {
@@ -66,6 +49,9 @@
 
 .footer-bar {
     text-align: center;
+    padding-top: 60px;
+    background: rgba(37, 31, 33, 0.84);
+    height: 250px;
 }
 
 .call-to-action {
@@ -86,7 +72,8 @@
     transform: rotate(180deg);
 } */
 
-.bg-primary:before {
+
+/* .bg-primary:before {
     content: '';
     position: absolute;
     width: 100%;
@@ -95,9 +82,8 @@
     display: block;
     background: linear-gradient(-45deg, transparent 33.33%, #89c5af 33.33%, #89c5af 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, #89c5af 33.33%, #89c5af 66.66%, transparent 66.66%);
     background-size: 30px 90px;
-    /* background-size: 15px 18px; fun pattern */
     transform: rotate(0deg);
-}
+} */
 
 form {
     max-width: 600px;
@@ -174,3 +160,80 @@ textarea {
 textarea {
     height: 9.2rem;
 }
+
+
+/* .song-styles {
+    background: rgba(245, 151, 45, 0.65);
+    width: 200px;
+    border-radius: 
+}
+ */
+
+.song-ctr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.inner-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin: 50px;
+}
+
+.songs {
+    font-family: 'Muli', sans-serif;
+    background: rgba(245, 189, 49, 0.73);
+    color: rgb(255, 255, 255);
+    margin: 1.5rem 4rem;
+    width: 20rem;
+    padding: 1.5rem;
+    border-radius: .2rem;
+    -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.2);
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.2);
+    /* font-weight: 700; */
+    text-align: left;
+}
+
+nav a, span {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #588F94;
+}
+
+.navbar {
+    text-align: right;
+    padding: 40px 40px 0 0;
+}
+
+.entry-title {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 50px;
+    background: rgba(41, 36, 38, 0.77);
+}
+
+.artist {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+/* .entry-title:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 19vh;
+    display: block;
+    background: linear-gradient(-45deg, transparent 33.33%, #f999b5 33.33%, #f999b5 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, #f999b5 66.66%, #f999b5 66.66%, transparent 66.66%);
+    background-size: 30px 90px;
+    transform: rotate(180deg);
+    left: 0;
+} */
