@@ -36,11 +36,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient( rgba(31, 105, 114, 0.74), rgba(96, 148, 154, 0.45)), url(https://www.toptal.com/designers/subtlepatterns/patterns/creampaper.png); */
 }
 
 .page-title {
-    /* font-family: 'Architects Daughter', cursive; */
     font-family: 'Julius Sans One', sans-serif;
     font-size: 5rem;
     letter-spacing: .2rem;
@@ -59,32 +57,6 @@
     height: 250px;
 }
 
-
-/* .bg-primary:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 65vh;
-    display: block;
-    background: linear-gradient(-45deg, transparent 33.33%, #558c92 33.33%, #558c92 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, #558b92 33.33%, #558b92 66.66%, transparent 66.66%);
-    background-size: 30px 90px;
-    transform: rotate(180deg);
-} */
-
-
-/* .bg-primary:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: -5vh;
-    display: block;
-    background: linear-gradient(-45deg, transparent 33.33%, #89c5af 33.33%, #89c5af 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, #89c5af 33.33%, #89c5af 66.66%, transparent 66.66%);
-    background-size: 30px 90px;
-    transform: rotate(0deg);
-} */
-
 form {
     max-width: 600px;
     text-align: center;
@@ -100,22 +72,8 @@ form input, textarea {
     width: 100%;
     margin-top: 1em;
     font-family: 'Merriweather', sans-serif;
-    /* box-shadow(0 1px 1px rgba(black, 0.1)); */
     resize: none;
 }
-
-
-/* #input-submit {
-    color: white;
-    background: red;
-    cursor: pointer;
-} */
-
-
-/* form:hover {
-      box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
-    
-} */
 
 textarea {
     height: 126px;
@@ -161,14 +119,6 @@ textarea {
     height: 9.2rem;
 }
 
-
-/* .song-styles {
-    background: rgba(245, 151, 45, 0.65);
-    width: 200px;
-    border-radius: 
-}
- */
-
 .song-ctr {
     display: flex;
     width: 100%;
@@ -193,7 +143,6 @@ textarea {
     border-radius: .2rem;
     -webkit-box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.2);
     box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.2);
-    /* font-weight: 700; */
     text-align: left;
 }
 
@@ -223,17 +172,3 @@ nav a:hover {
     font-size: 1.5rem;
     font-weight: 800;
 }
-
-
-/* .entry-title:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 19vh;
-    display: block;
-    background: linear-gradient(-45deg, transparent 33.33%, #f999b5 33.33%, #f999b5 66.66%, transparent 66.66%), linear-gradient(45deg, transparent 33.33%, #f999b5 66.66%, #f999b5 66.66%, transparent 66.66%);
-    background-size: 30px 90px;
-    transform: rotate(180deg);
-    left: 0;
-} */

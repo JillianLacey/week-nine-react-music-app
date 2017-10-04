@@ -59,10 +59,9 @@ export default class PlayListForm extends Component {
 
                             <form className="cf" onSubmit={this.addToList}>
                                 <div className="half left cf">
-
-                                    <input onChange={this.handleInputChange} value={userName} type="text" className="form-control" name="userName" placeholder="Enter your name" />
-                                    <input onChange={this.handleInputChange} value={songArtist} type="text" className="form-control" name="songArtist" placeholder="Artist or Band" />
-                                    <input onChange={this.handleInputChange} value={songTitle} type="text" className="form-control" name="songTitle" placeholder="Song Title" />
+                                    <input onChange={this.handleInputChange} value={userName} type="text" className="form-control" name="userName" autoComplete="off" placeholder="Enter your name" required />
+                                    <input onChange={this.handleInputChange} value={songArtist} type="text" className="form-control" name="songArtist" autoComplete="off" placeholder="Artist or Band" required />
+                                    <input onChange={this.handleInputChange} value={songTitle} type="text" className="form-control" name="songTitle" autoComplete="off" placeholder="Song Title" required />
                                 </div>
                                 <div className="half right cf">
 
