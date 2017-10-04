@@ -14,13 +14,6 @@ export default class PlayListForm extends Component {
     }
 
     handleInputChange = e => {
-        // get the property to update
-        // get this.state.track
-        // let prop = e.target.name;
-        // let { track } = this.state;
-        // update this.state.track
-        // track[prop] = e.target.value;
-        // set state
         this.setState({
             [e.target.name]: e.target.value
         })
